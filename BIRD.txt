@@ -1,3 +1,7 @@
 please take a look at the asset composite and let me know if there are rules/filters in place when it process as Aerial Wire asset. 
 BIRD is seeing a lot of that asset type in GIS that are no in Ivara so I thought there might be some conditions in place to prevent them from being loaded to Ivara.
 Let me know what you find.
+
+
+
+I reviewed the Assets composite for the Aerial Wire path. I did not find any business rule or attribute-based filter that would intentionally prevent Aerial Wire assets from being loaded to Ivara. The only filters/conditions I found are the inbound file pickup pattern, which only processes files named AerialWire*.xml, and delete-removal logic, where records with SourceType = delete may be removed if the trigger enables RemoveDelete. The flow trace also shows the Aerial Wire process running successfully through EOAerialWires, PublishAerialWires, CreateAerialWires, and the callback. Based on this, I don’t think the composite is intentionally excluding active Aerial Wire assets. I would suggest checking whether GIS is actually producing those records in the AerialWire XML files, whether they are marked as Removed/delete, or whether they are failing downstream in the Ivara create callback.
