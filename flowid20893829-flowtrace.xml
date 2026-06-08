@@ -1,0 +1,1551 @@
+<audit_trail ecid="0f0e20c4-4a64-41af-a973-8a614f72ad68-013205b7"  flowId="20893718"  flowCorrelationId="0000PuQKxGd1f_6LzMg8yW1e6viz000RmJ"  activeInstances="12"  date="2026-06-05 18:27:25.606 MDT"  lastUpdatedDate="2026-06-05 19:02:22.518 MDT"  elapsedTime="2096912">
+    <entry instanceId="116045776" parentInstanceId="116045773" date="2026-06-05 18:27:25.606 MDT" lastUpdatedDate="2026-06-05 18:27:25.608 MDT" elapsedTime="2" timestamp="1780705645606" state="18" actionType="operation" actionName="Read" subType="mediator" type="component">
+        <entityName>EOCabinetsMediator</entityName>
+        <compositeInstanceId>36670799</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045773" date="2026-06-05 18:27:25.606 MDT" lastUpdatedDate="2026-06-05 18:27:25.606 MDT" elapsedTime="0" timestamp="1780705645606" state="18" actionType="operation" actionName="Read" subType="binding.jca" type="service">
+        <entityName>EOCabinets</entityName>
+        <compositeInstanceId>36670799</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045777" parentInstanceId="116045772" date="2026-06-05 18:27:25.606 MDT" lastUpdatedDate="2026-06-05 18:27:25.610 MDT" elapsedTime="4" timestamp="1780705645606" state="18" actionType="operation" actionName="Read" subType="mediator" type="component">
+        <entityName>EOPedestalsMediator</entityName>
+        <compositeInstanceId>36670798</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045775" parentInstanceId="116045774" date="2026-06-05 18:27:25.606 MDT" lastUpdatedDate="2026-06-05 18:27:25.610 MDT" elapsedTime="4" timestamp="1780705645606" state="18" actionType="operation" actionName="Read" subType="mediator" type="component">
+        <entityName>EOPadsMediator</entityName>
+        <compositeInstanceId>36670800</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045772" date="2026-06-05 18:27:25.606 MDT" lastUpdatedDate="2026-06-05 18:27:25.606 MDT" elapsedTime="0" timestamp="1780705645606" state="18" actionType="operation" actionName="Read" subType="binding.jca" type="service">
+        <entityName>EOPedestals</entityName>
+        <compositeInstanceId>36670798</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045774" date="2026-06-05 18:27:25.606 MDT" lastUpdatedDate="2026-06-05 18:27:25.606 MDT" elapsedTime="0" timestamp="1780705645606" state="18" actionType="operation" actionName="Read" subType="binding.jca" type="service">
+        <entityName>EOPads</entityName>
+        <compositeInstanceId>36670800</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045780" parentInstanceId="116045778" date="2026-06-05 18:27:25.607 MDT" lastUpdatedDate="2026-06-05 18:27:25.614 MDT" elapsedTime="7" timestamp="1780705645607" state="18" actionType="operation" actionName="Read" subType="mediator" type="component">
+        <entityName>EOCablesMediator</entityName>
+        <compositeInstanceId>36670801</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045778" date="2026-06-05 18:27:25.607 MDT" lastUpdatedDate="2026-06-05 18:27:25.607 MDT" elapsedTime="0" timestamp="1780705645607" state="18" actionType="operation" actionName="Read" subType="binding.jca" type="service">
+        <entityName>EOCables</entityName>
+        <compositeInstanceId>36670801</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045779" parentInstanceId="116045776" date="2026-06-05 18:27:25.607 MDT" lastUpdatedDate="2026-06-05 18:59:26.364 MDT" elapsedTime="1920757" timestamp="1780705645607" state="18" actionType="operation" actionName="PublishCabinets" subType="bpel" type="component">
+        <entityName>Cabinets</entityName>
+        <compositeInstanceId>36670799</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <ednPublishedEvents>
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="7e17040d-613e-11f1-872a-1e59e8d00118" date="2026-06-05 18:27:25.647 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="f6ecdd1e-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:59:26.362 MDT" />
+       </ednPublishedEvents>
+        <correlations>
+            <correlation flowId="20893718" parentInstanceId="116045931" ednEventName="{urn:epcor:as:ivara:IvaraEvent}CabinetTriggerStartEvent" ednEventId="f5563775-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:59:26.329 MDT" />
+       </correlations>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045781" parentInstanceId="116045777" date="2026-06-05 18:27:25.608 MDT" lastUpdatedDate="2026-06-05 18:52:47.089 MDT" elapsedTime="1521481" timestamp="1780705645608" state="18" actionType="operation" actionName="PublishPedestals" subType="bpel" type="component">
+        <entityName>Pedestals</entityName>
+        <compositeInstanceId>36670798</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <ednPublishedEvents>
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="7e13cfac-613e-11f1-872a-1e59e8d00118" date="2026-06-05 18:27:25.626 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="08efe07f-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:52:47.084 MDT" />
+       </ednPublishedEvents>
+        <correlations>
+            <correlation flowId="20893718" parentInstanceId="116045931" ednEventName="{urn:epcor:as:ivara:IvaraEvent}PedestalTriggerStartEvent" ednEventId="39ad3629-6140-11f1-872a-1e59e8d00118" date="2026-06-05 18:39:53.010 MDT" />
+            <correlation flowId="20893783" parentInstanceId="116046179" operation="uploadPedestalsResult" date="2026-06-05 18:52:47.049 MDT" />
+       </correlations>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045782" parentInstanceId="116045775" date="2026-06-05 18:27:25.609 MDT" lastUpdatedDate="2026-06-05 18:39:47.984 MDT" elapsedTime="742375" timestamp="1780705645609" state="18" actionType="operation" actionName="PublishPads" subType="bpel" type="component">
+        <entityName>Pads</entityName>
+        <compositeInstanceId>36670800</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <ednPublishedEvents>
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="7e1c825e-613e-11f1-872a-1e59e8d00118" date="2026-06-05 18:27:25.683 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="388e3196-6140-11f1-872a-1e59e8d00118" date="2026-06-05 18:39:47.981 MDT" />
+       </ednPublishedEvents>
+        <correlations>
+            <correlation flowId="20893718" parentInstanceId="116045931" ednEventName="{urn:epcor:as:ivara:IvaraEvent}PadTriggerStartEvent" ednEventId="2b5a860f-6140-11f1-872a-1e59e8d00118" date="2026-06-05 18:39:25.856 MDT" />
+            <correlation flowId="20893744" parentInstanceId="116045939" operation="uploadPadsResult" date="2026-06-05 18:39:47.954 MDT" />
+       </correlations>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045783" parentInstanceId="116045780" date="2026-06-05 18:27:25.612 MDT" lastUpdatedDate="2026-06-05 19:02:21.368 MDT" elapsedTime="2095756" timestamp="1780705645612" state="18" actionType="operation" actionName="PublishCables" subType="bpel" type="component">
+        <entityName>Cables</entityName>
+        <compositeInstanceId>36670801</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <ednPublishedEvents>
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="7e202aef-613e-11f1-872a-1e59e8d00118" date="2026-06-05 18:27:25.707 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="5f3b70b6-6143-11f1-872a-1e59e8d00118" date="2026-06-05 19:02:21.360 MDT" />
+       </ednPublishedEvents>
+        <correlations>
+            <correlation flowId="20893718" parentInstanceId="116045931" ednEventName="{urn:epcor:as:ivara:IvaraEvent}CableTriggerStartEvent" ednEventId="32030ded-6143-11f1-872a-1e59e8d00118" date="2026-06-05 19:01:09.692 MDT" />
+            <correlation flowId="20893983" parentInstanceId="116047349" operation="uploadCablesResult" date="2026-06-05 19:02:21.322 MDT" />
+       </correlations>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045784" parentInstanceId="116045781" date="2026-06-05 18:27:27.575 MDT" lastUpdatedDate="2026-06-05 18:27:27.603 MDT" elapsedTime="28" timestamp="1780705647575" state="18" actionType="event" actionName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="7e13cfac-613e-11f1-872a-1e59e8d00118" subType="bpel" type="component">
+        <entityName>AssetSetsManagerFactory</entityName>
+        <compositeInstanceId>36670798</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="L116045785" parentInstanceId="116045784" date="2026-06-05 18:27:27.595 MDT" lastUpdatedDate="2026-06-05 18:27:27.599 MDT" elapsedTime="4" timestamp="1780705647595" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="reference">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670798</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>    <entry instanceId="116045785" parentInstanceId="L116045785" date="2026-06-05 18:27:27.595 MDT" lastUpdatedDate="2026-06-05 18:27:27.599 MDT" elapsedTime="4" timestamp="1780705647595" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="service">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670802</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045786" parentInstanceId="116045785" date="2026-06-05 18:27:27.597 MDT" lastUpdatedDate="2026-06-05 18:27:27.598 MDT" elapsedTime="1" timestamp="1780705647597" state="18" actionType="operation" actionName="lockComposite" subType="mediator" type="component">
+        <entityName>InstanceManagerMediator</entityName>
+        <compositeInstanceId>36670802</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045787" parentInstanceId="116045786" date="2026-06-05 18:27:27.598 MDT" lastUpdatedDate="2026-06-05 18:27:27.598 MDT" elapsedTime="0" timestamp="1780705647598" state="17" actionType="operation" actionName="lockComposite" subType="spring" type="component">
+        <entityName>InstanceManagerSpring</entityName>
+        <compositeInstanceId>36670802</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>RUNNING,CLEAR</status>
+    </entry>
+    <entry instanceId="116045788" parentInstanceId="116045784" date="2026-06-05 18:27:27.599 MDT" lastUpdatedDate="2026-06-05 19:02:22.518 MDT" elapsedTime="2094919" timestamp="1780705647599" state="18" actionType="operation" actionName="InitializeSet" subType="bpel" type="component">
+        <entityName>AssetSetsManager</entityName>
+        <compositeInstanceId>36670798</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <ednPublishedEvents>
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerSetStartEvent" ednEventId="3ebbba2e-613f-11f1-872a-1e59e8d00118" date="2026-06-05 18:32:48.849 MDT" />
+       </ednPublishedEvents>
+        <correlations>
+            <correlation flowId="20893717" parentInstanceId="116045789" operation="AddSet" date="2026-06-05 18:27:28.603 MDT" />
+            <correlation flowId="20893719" parentInstanceId="116045793" operation="AddSet" date="2026-06-05 18:27:28.858 MDT" />
+            <correlation flowId="20893720" parentInstanceId="116045797" operation="AddSet" date="2026-06-05 18:27:29.756 MDT" />
+            <correlation flowId="20893722" parentInstanceId="116045837" operation="AddSet" date="2026-06-05 18:27:43.958 MDT" />
+            <correlation flowId="20893721" parentInstanceId="116045841" operation="AddSet" date="2026-06-05 18:27:45.602 MDT" />
+            <correlation flowId="20893723" parentInstanceId="116045845" operation="AddSet" date="2026-06-05 18:27:45.984 MDT" />
+            <correlation flowId="20893724" parentInstanceId="116045849" operation="AddSet" date="2026-06-05 18:27:46.912 MDT" />
+            <correlation flowId="20893725" parentInstanceId="116045853" operation="AddSet" date="2026-06-05 18:27:47.603 MDT" />
+            <correlation flowId="20893726" parentInstanceId="116045857" operation="AddSet" date="2026-06-05 18:27:47.914 MDT" />
+            <correlation flowId="20893727" parentInstanceId="116045861" operation="AddSet" date="2026-06-05 18:27:48.589 MDT" />
+            <correlation flowId="20893731" parentInstanceId="116045866" operation="AddSet" date="2026-06-05 18:27:48.642 MDT" />
+            <correlation flowId="20893728" parentInstanceId="116045865" operation="AddSet" date="2026-06-05 18:27:48.638 MDT" />
+            <correlation flowId="20893730" parentInstanceId="116045873" operation="AddSet" date="2026-06-05 18:27:48.669 MDT" />
+            <correlation flowId="20893732" parentInstanceId="116045877" operation="AddSet" date="2026-06-05 18:27:48.706 MDT" />
+            <correlation flowId="20893729" parentInstanceId="116045881" operation="AddSet" date="2026-06-05 18:27:48.762 MDT" />
+            <correlation flowId="20893718" parentInstanceId="116045931" ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerSetCompletionEvent" ednEventId="5fe28629-6143-11f1-872a-1e59e8d00118" date="2026-06-05 19:02:22.491 MDT" />
+       </correlations>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045789" parentInstanceId="116045779" date="2026-06-05 18:27:28.567 MDT" lastUpdatedDate="2026-06-05 18:27:28.604 MDT" elapsedTime="37" timestamp="1780705648567" state="18" actionType="event" actionName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="7e17040d-613e-11f1-872a-1e59e8d00118" subType="bpel" type="component">
+        <entityName>AssetSetsManagerFactory</entityName>
+        <compositeInstanceId>36670799</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="L116045790" parentInstanceId="116045789" date="2026-06-05 18:27:28.600 MDT" lastUpdatedDate="2026-06-05 18:27:28.602 MDT" elapsedTime="2" timestamp="1780705648600" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="reference">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670799</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>    <entry instanceId="116045790" parentInstanceId="L116045790" date="2026-06-05 18:27:28.600 MDT" lastUpdatedDate="2026-06-05 18:27:28.602 MDT" elapsedTime="2" timestamp="1780705648600" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="service">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670803</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045792" parentInstanceId="116045791" date="2026-06-05 18:27:28.601 MDT" lastUpdatedDate="2026-06-05 18:27:28.601 MDT" elapsedTime="0" timestamp="1780705648601" state="17" actionType="operation" actionName="lockComposite" subType="spring" type="component">
+        <entityName>InstanceManagerSpring</entityName>
+        <compositeInstanceId>36670803</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>RUNNING,CLEAR</status>
+    </entry>
+    <entry instanceId="116045791" parentInstanceId="116045790" date="2026-06-05 18:27:28.601 MDT" lastUpdatedDate="2026-06-05 18:27:28.602 MDT" elapsedTime="1" timestamp="1780705648601" state="18" actionType="operation" actionName="lockComposite" subType="mediator" type="component">
+        <entityName>InstanceManagerMediator</entityName>
+        <compositeInstanceId>36670803</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045793" parentInstanceId="116045782" date="2026-06-05 18:27:28.838 MDT" lastUpdatedDate="2026-06-05 18:27:28.859 MDT" elapsedTime="21" timestamp="1780705648838" state="18" actionType="event" actionName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="7e1c825e-613e-11f1-872a-1e59e8d00118" subType="bpel" type="component">
+        <entityName>AssetSetsManagerFactory</entityName>
+        <compositeInstanceId>36670800</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="L116045794" parentInstanceId="116045793" date="2026-06-05 18:27:28.855 MDT" lastUpdatedDate="2026-06-05 18:27:28.857 MDT" elapsedTime="2" timestamp="1780705648855" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="reference">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670800</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>    <entry instanceId="116045794" parentInstanceId="L116045794" date="2026-06-05 18:27:28.855 MDT" lastUpdatedDate="2026-06-05 18:27:28.857 MDT" elapsedTime="2" timestamp="1780705648855" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="service">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670804</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045796" parentInstanceId="116045795" date="2026-06-05 18:27:28.856 MDT" lastUpdatedDate="2026-06-05 18:27:28.856 MDT" elapsedTime="0" timestamp="1780705648856" state="17" actionType="operation" actionName="lockComposite" subType="spring" type="component">
+        <entityName>InstanceManagerSpring</entityName>
+        <compositeInstanceId>36670804</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>RUNNING,CLEAR</status>
+    </entry>
+    <entry instanceId="116045795" parentInstanceId="116045794" date="2026-06-05 18:27:28.856 MDT" lastUpdatedDate="2026-06-05 18:27:28.857 MDT" elapsedTime="1" timestamp="1780705648856" state="18" actionType="operation" actionName="lockComposite" subType="mediator" type="component">
+        <entityName>InstanceManagerMediator</entityName>
+        <compositeInstanceId>36670804</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045797" parentInstanceId="116045783" date="2026-06-05 18:27:29.736 MDT" lastUpdatedDate="2026-06-05 18:27:29.758 MDT" elapsedTime="22" timestamp="1780705649736" state="18" actionType="event" actionName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="7e202aef-613e-11f1-872a-1e59e8d00118" subType="bpel" type="component">
+        <entityName>AssetSetsManagerFactory</entityName>
+        <compositeInstanceId>36670801</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="L116045798" parentInstanceId="116045797" date="2026-06-05 18:27:29.753 MDT" lastUpdatedDate="2026-06-05 18:27:29.756 MDT" elapsedTime="3" timestamp="1780705649753" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="reference">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670801</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>    <entry instanceId="116045798" parentInstanceId="L116045798" date="2026-06-05 18:27:29.753 MDT" lastUpdatedDate="2026-06-05 18:27:29.756 MDT" elapsedTime="3" timestamp="1780705649753" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="service">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670805</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045799" parentInstanceId="116045798" date="2026-06-05 18:27:29.754 MDT" lastUpdatedDate="2026-06-05 18:27:29.755 MDT" elapsedTime="1" timestamp="1780705649754" state="18" actionType="operation" actionName="lockComposite" subType="mediator" type="component">
+        <entityName>InstanceManagerMediator</entityName>
+        <compositeInstanceId>36670805</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045800" parentInstanceId="116045799" date="2026-06-05 18:27:29.755 MDT" lastUpdatedDate="2026-06-05 18:27:29.755 MDT" elapsedTime="0" timestamp="1780705649755" state="17" actionType="operation" actionName="lockComposite" subType="spring" type="component">
+        <entityName>InstanceManagerSpring</entityName>
+        <compositeInstanceId>36670805</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>RUNNING,CLEAR</status>
+    </entry>
+    <entry instanceId="116045802" parentInstanceId="116045801" date="2026-06-05 18:27:39.585 MDT" lastUpdatedDate="2026-06-05 18:27:39.599 MDT" elapsedTime="14" timestamp="1780705659585" state="18" actionType="operation" actionName="Read" subType="mediator" type="component">
+        <entityName>EOPolesMediator</entityName>
+        <compositeInstanceId>36670806</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045801" date="2026-06-05 18:27:39.585 MDT" lastUpdatedDate="2026-06-05 18:27:39.585 MDT" elapsedTime="0" timestamp="1780705659585" state="18" actionType="operation" actionName="Read" subType="binding.jca" type="service">
+        <entityName>EOPoles</entityName>
+        <compositeInstanceId>36670806</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045805" parentInstanceId="116045802" date="2026-06-05 18:27:39.595 MDT" lastUpdatedDate="2026-06-05 18:39:15.085 MDT" elapsedTime="695490" timestamp="1780705659595" state="18" actionType="operation" actionName="PublishPoles" subType="bpel" type="component">
+        <entityName>Poles</entityName>
+        <compositeInstanceId>36670806</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <ednPublishedEvents>
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="8671d6f2-613e-11f1-872a-1e59e8d00118" date="2026-06-05 18:27:39.664 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="24f20d00-6140-11f1-872a-1e59e8d00118" date="2026-06-05 18:39:15.081 MDT" />
+       </ednPublishedEvents>
+        <correlations>
+            <correlation flowId="20893718" parentInstanceId="116045931" ednEventName="{urn:epcor:as:ivara:IvaraEvent}PoleTriggerStartEvent" ednEventId="41965082-613f-11f1-872a-1e59e8d00118" date="2026-06-05 18:32:54.615 MDT" />
+            <correlation flowId="20893743" parentInstanceId="116045936" operation="uploadPolesResult" date="2026-06-05 18:39:15.044 MDT" />
+       </correlations>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045803" date="2026-06-05 18:27:39.595 MDT" lastUpdatedDate="2026-06-05 18:27:39.595 MDT" elapsedTime="0" timestamp="1780705659595" state="18" actionType="operation" actionName="Read" subType="binding.jca" type="service">
+        <entityName>EODecorativePoles</entityName>
+        <compositeInstanceId>36670807</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045804" parentInstanceId="116045803" date="2026-06-05 18:27:39.595 MDT" lastUpdatedDate="2026-06-05 18:27:39.596 MDT" elapsedTime="1" timestamp="1780705659595" state="18" actionType="operation" actionName="Read" subType="mediator" type="component">
+        <entityName>EODecorativePolesMediator</entityName>
+        <compositeInstanceId>36670807</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045806" parentInstanceId="116045804" date="2026-06-05 18:27:39.596 MDT" lastUpdatedDate="2026-06-05 18:52:54.704 MDT" elapsedTime="1515108" timestamp="1780705659596" state="18" actionType="operation" actionName="PublishDecorativePoles" subType="bpel" type="component">
+        <entityName>DecorativePoles</entityName>
+        <compositeInstanceId>36670807</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <ednPublishedEvents>
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="866d6a11-613e-11f1-872a-1e59e8d00118" date="2026-06-05 18:27:39.635 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="0d79607d-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:52:54.696 MDT" />
+       </ednPublishedEvents>
+        <correlations>
+            <correlation flowId="20893718" parentInstanceId="116045931" ednEventName="{urn:epcor:as:ivara:IvaraEvent}DecorativePoleTriggerStartEvent" ednEventId="0a7cc212-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:52:54.668 MDT" />
+       </correlations>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045808" parentInstanceId="116045807" date="2026-06-05 18:27:39.615 MDT" lastUpdatedDate="2026-06-05 18:27:39.617 MDT" elapsedTime="2" timestamp="1780705659615" state="18" actionType="operation" actionName="Read" subType="mediator" type="component">
+        <entityName>EOLuminairesMediator</entityName>
+        <compositeInstanceId>36670808</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045807" date="2026-06-05 18:27:39.615 MDT" lastUpdatedDate="2026-06-05 18:27:39.615 MDT" elapsedTime="0" timestamp="1780705659615" state="18" actionType="operation" actionName="Read" subType="binding.jca" type="service">
+        <entityName>EOLuminaires</entityName>
+        <compositeInstanceId>36670808</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045809" parentInstanceId="116045808" date="2026-06-05 18:27:39.616 MDT" lastUpdatedDate="2026-06-05 18:57:50.173 MDT" elapsedTime="1810557" timestamp="1780705659616" state="18" actionType="operation" actionName="PublishLuminaires" subType="bpel" type="component">
+        <entityName>Luminaires</entityName>
+        <compositeInstanceId>36670808</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <ednPublishedEvents>
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="8674bd33-613e-11f1-872a-1e59e8d00118" date="2026-06-05 18:27:39.684 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="bd96fa8c-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:57:50.169 MDT" />
+       </ednPublishedEvents>
+        <correlations>
+            <correlation flowId="20893718" parentInstanceId="116045931" ednEventName="{urn:epcor:as:ivara:IvaraEvent}LuminaireTriggerStartEvent" ednEventId="ba798dd3-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:57:50.141 MDT" />
+       </correlations>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045810" date="2026-06-05 18:27:39.706 MDT" lastUpdatedDate="2026-06-05 18:27:39.706 MDT" elapsedTime="0" timestamp="1780705659706" state="18" actionType="operation" actionName="Read" subType="binding.jca" type="service">
+        <entityName>EOTransPoles</entityName>
+        <compositeInstanceId>36670809</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045811" parentInstanceId="116045810" date="2026-06-05 18:27:39.707 MDT" lastUpdatedDate="2026-06-05 18:27:39.708 MDT" elapsedTime="1" timestamp="1780705659707" state="18" actionType="operation" actionName="Read" subType="mediator" type="component">
+        <entityName>EOTransPolesMediator</entityName>
+        <compositeInstanceId>36670809</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045812" date="2026-06-05 18:27:39.707 MDT" lastUpdatedDate="2026-06-05 18:27:39.707 MDT" elapsedTime="0" timestamp="1780705659707" state="18" actionType="operation" actionName="Read" subType="binding.jca" type="service">
+        <entityName>EOConductors</entityName>
+        <compositeInstanceId>36670810</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045814" parentInstanceId="116045811" date="2026-06-05 18:27:39.708 MDT" lastUpdatedDate="2026-06-05 18:39:23.048 MDT" elapsedTime="703340" timestamp="1780705659708" state="18" actionType="operation" actionName="PublishTransPoles" subType="bpel" type="component">
+        <entityName>TransPoles</entityName>
+        <compositeInstanceId>36670809</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <ednPublishedEvents>
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="867a62aa-613e-11f1-872a-1e59e8d00118" date="2026-06-05 18:27:39.720 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="29afe34c-6140-11f1-872a-1e59e8d00118" date="2026-06-05 18:39:23.036 MDT" />
+       </ednPublishedEvents>
+        <correlations>
+            <correlation flowId="20893718" parentInstanceId="116045931" ednEventName="{urn:epcor:as:ivara:IvaraEvent}TransPoleTriggerStartEvent" ednEventId="27c37c83-6140-11f1-872a-1e59e8d00118" date="2026-06-05 18:39:22.999 MDT" />
+       </correlations>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045813" parentInstanceId="116045812" date="2026-06-05 18:27:39.708 MDT" lastUpdatedDate="2026-06-05 18:27:39.717 MDT" elapsedTime="9" timestamp="1780705659708" state="18" actionType="operation" actionName="Read" subType="mediator" type="component">
+        <entityName>EOConductorsMediator</entityName>
+        <compositeInstanceId>36670810</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045815" parentInstanceId="116045813" date="2026-06-05 18:27:39.714 MDT" lastUpdatedDate="2026-06-05 19:01:04.325 MDT" elapsedTime="2004611" timestamp="1780705659714" state="18" actionType="operation" actionName="PublishConductors" subType="bpel" type="component">
+        <entityName>Conductors</entityName>
+        <compositeInstanceId>36670810</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <ednPublishedEvents>
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="86800733-613e-11f1-872a-1e59e8d00118" date="2026-06-05 18:27:39.757 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="314fea82-6143-11f1-872a-1e59e8d00118" date="2026-06-05 19:01:04.319 MDT" />
+       </ednPublishedEvents>
+        <correlations>
+            <correlation flowId="20893718" parentInstanceId="116045931" ednEventName="{urn:epcor:as:ivara:IvaraEvent}ConductorTriggerStartEvent" ednEventId="f6f45731-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:59:27.355 MDT" />
+            <correlation flowId="20893900" parentInstanceId="116046857" operation="uploadConductorsResult" date="2026-06-05 19:01:04.279 MDT" />
+       </correlations>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045816" date="2026-06-05 18:27:39.728 MDT" lastUpdatedDate="2026-06-05 18:27:39.728 MDT" elapsedTime="0" timestamp="1780705659728" state="18" actionType="operation" actionName="Read" subType="binding.jca" type="service">
+        <entityName>EOManholes</entityName>
+        <compositeInstanceId>36670811</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045817" parentInstanceId="116045816" date="2026-06-05 18:27:39.729 MDT" lastUpdatedDate="2026-06-05 18:27:39.732 MDT" elapsedTime="3" timestamp="1780705659729" state="18" actionType="operation" actionName="Read" subType="mediator" type="component">
+        <entityName>EOManholesMediator</entityName>
+        <compositeInstanceId>36670811</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045818" parentInstanceId="116045817" date="2026-06-05 18:27:39.732 MDT" lastUpdatedDate="2026-06-05 18:58:37.061 MDT" elapsedTime="1857329" timestamp="1780705659732" state="18" actionType="operation" actionName="PublishManholes" subType="bpel" type="component">
+        <entityName>Manholes</entityName>
+        <compositeInstanceId>36670811</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <ednPublishedEvents>
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="8684c24e-613e-11f1-872a-1e59e8d00118" date="2026-06-05 18:27:39.788 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="d989abca-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:58:37.058 MDT" />
+       </ednPublishedEvents>
+        <correlations>
+            <correlation flowId="20893718" parentInstanceId="116045931" ednEventName="{urn:epcor:as:ivara:IvaraEvent}ManholeTriggerStartEvent" ednEventId="d0cdccc3-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:58:24.695 MDT" />
+            <correlation flowId="20893832" parentInstanceId="116046458" operation="uploadManholesResult" date="2026-06-05 18:58:37.033 MDT" />
+       </correlations>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045819" date="2026-06-05 18:27:39.743 MDT" lastUpdatedDate="2026-06-05 18:27:39.743 MDT" elapsedTime="0" timestamp="1780705659743" state="18" actionType="operation" actionName="Read" subType="binding.jca" type="service">
+        <entityName>EOAerialSwitches</entityName>
+        <compositeInstanceId>36670812</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045820" parentInstanceId="116045819" date="2026-06-05 18:27:39.743 MDT" lastUpdatedDate="2026-06-05 18:27:39.745 MDT" elapsedTime="2" timestamp="1780705659743" state="18" actionType="operation" actionName="Read" subType="mediator" type="component">
+        <entityName>EOAerialSwitchesMediator</entityName>
+        <compositeInstanceId>36670812</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045823" parentInstanceId="116045820" date="2026-06-05 18:27:39.744 MDT" lastUpdatedDate="2026-06-05 18:58:51.202 MDT" elapsedTime="1871458" timestamp="1780705659744" state="18" actionType="operation" actionName="PublishAerialSwitches" subType="bpel" type="component">
+        <entityName>AerialSwitches</entityName>
+        <compositeInstanceId>36670812</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <ednPublishedEvents>
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="8685d3cf-613e-11f1-872a-1e59e8d00118" date="2026-06-05 18:27:39.795 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="e1f743e0-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:58:51.198 MDT" />
+       </ednPublishedEvents>
+        <correlations>
+            <correlation flowId="20893718" parentInstanceId="116045931" ednEventName="{urn:epcor:as:ivara:IvaraEvent}AerialSwitchTriggerStartEvent" ednEventId="db1d4439-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:58:44.693 MDT" />
+            <correlation flowId="20893833" parentInstanceId="116046461" operation="uploadAerialSwitchesResult" date="2026-06-05 18:58:51.156 MDT" />
+       </correlations>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045821" date="2026-06-05 18:27:39.744 MDT" lastUpdatedDate="2026-06-05 18:27:39.744 MDT" elapsedTime="0" timestamp="1780705659744" state="18" actionType="operation" actionName="Read" subType="binding.jca" type="service">
+        <entityName>EOVaults</entityName>
+        <compositeInstanceId>36670813</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045822" parentInstanceId="116045821" date="2026-06-05 18:27:39.744 MDT" lastUpdatedDate="2026-06-05 18:27:39.746 MDT" elapsedTime="2" timestamp="1780705659744" state="18" actionType="operation" actionName="Read" subType="mediator" type="component">
+        <entityName>EOVaultsMediator</entityName>
+        <compositeInstanceId>36670813</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045824" parentInstanceId="116045822" date="2026-06-05 18:27:39.745 MDT" lastUpdatedDate="2026-06-05 18:58:02.133 MDT" elapsedTime="1822388" timestamp="1780705659745" state="18" actionType="operation" actionName="PublishVaults" subType="bpel" type="component">
+        <entityName>Vaults</entityName>
+        <compositeInstanceId>36670813</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <ednPublishedEvents>
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="86897d6b-613e-11f1-872a-1e59e8d00118" date="2026-06-05 18:27:39.819 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="c4b79f26-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:58:02.127 MDT" />
+       </ednPublishedEvents>
+        <correlations>
+            <correlation flowId="20893718" parentInstanceId="116045931" ednEventName="{urn:epcor:as:ivara:IvaraEvent}VaultTriggerStartEvent" ednEventId="bf43c02f-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:57:56.647 MDT" />
+            <correlation flowId="20893830" parentInstanceId="116046452" operation="uploadVaultsResult" date="2026-06-05 18:58:02.085 MDT" />
+       </correlations>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045825" date="2026-06-05 18:27:39.749 MDT" lastUpdatedDate="2026-06-05 18:27:39.749 MDT" elapsedTime="0" timestamp="1780705659749" state="18" actionType="operation" actionName="Read" subType="binding.jca" type="service">
+        <entityName>EOAerialWires</entityName>
+        <compositeInstanceId>36670814</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045826" parentInstanceId="116045825" date="2026-06-05 18:27:39.750 MDT" lastUpdatedDate="2026-06-05 18:27:39.763 MDT" elapsedTime="13" timestamp="1780705659750" state="18" actionType="operation" actionName="Read" subType="mediator" type="component">
+        <entityName>EOAerialWiresMediator</entityName>
+        <compositeInstanceId>36670814</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045828" parentInstanceId="116045827" date="2026-06-05 18:27:39.757 MDT" lastUpdatedDate="2026-06-05 18:27:39.759 MDT" elapsedTime="2" timestamp="1780705659757" state="18" actionType="operation" actionName="Read" subType="mediator" type="component">
+        <entityName>EOVaultsMediator</entityName>
+        <compositeInstanceId>36670815</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045827" date="2026-06-05 18:27:39.757 MDT" lastUpdatedDate="2026-06-05 18:27:39.757 MDT" elapsedTime="0" timestamp="1780705659757" state="18" actionType="operation" actionName="Read" subType="binding.jca" type="service">
+        <entityName>EOVaults</entityName>
+        <compositeInstanceId>36670815</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045831" parentInstanceId="116045830" date="2026-06-05 18:27:39.758 MDT" lastUpdatedDate="2026-06-05 18:27:39.760 MDT" elapsedTime="2" timestamp="1780705659758" state="18" actionType="operation" actionName="Read" subType="mediator" type="component">
+        <entityName>EOHandholesMediator</entityName>
+        <compositeInstanceId>36670816</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045830" date="2026-06-05 18:27:39.758 MDT" lastUpdatedDate="2026-06-05 18:27:39.758 MDT" elapsedTime="0" timestamp="1780705659758" state="18" actionType="operation" actionName="Read" subType="binding.jca" type="service">
+        <entityName>EOHandholes</entityName>
+        <compositeInstanceId>36670816</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045829" parentInstanceId="116045828" date="2026-06-05 18:27:39.758 MDT" lastUpdatedDate="2026-06-05 18:58:19.817 MDT" elapsedTime="1840059" timestamp="1780705659758" state="18" actionType="operation" actionName="PublishVaults" subType="bpel" type="component">
+        <entityName>Vaults</entityName>
+        <compositeInstanceId>36670815</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <ednPublishedEvents>
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="868b794d-613e-11f1-872a-1e59e8d00118" date="2026-06-05 18:27:39.832 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="cf4271d0-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:58:19.814 MDT" />
+       </ednPublishedEvents>
+        <correlations>
+            <correlation flowId="20893718" parentInstanceId="116045931" ednEventName="{urn:epcor:as:ivara:IvaraEvent}VaultTriggerStartEvent" ednEventId="c99ecf49-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:58:15.337 MDT" />
+            <correlation flowId="20893831" parentInstanceId="116046455" operation="uploadVaultsResult" date="2026-06-05 18:58:19.784 MDT" />
+       </correlations>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045832" parentInstanceId="116045831" date="2026-06-05 18:27:39.759 MDT" lastUpdatedDate="2026-06-05 18:58:39.385 MDT" elapsedTime="1859626" timestamp="1780705659759" state="18" actionType="operation" actionName="PublishHandholes" subType="bpel" type="component">
+        <entityName>Handholes</entityName>
+        <compositeInstanceId>36670816</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <ednPublishedEvents>
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="868b794c-613e-11f1-872a-1e59e8d00118" date="2026-06-05 18:27:39.832 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="daec4926-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:58:39.382 MDT" />
+       </ednPublishedEvents>
+        <correlations>
+            <correlation flowId="20893718" parentInstanceId="116045931" ednEventName="{urn:epcor:as:ivara:IvaraEvent}HandholeTriggerStartEvent" ednEventId="da82ffed-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:58:39.358 MDT" />
+       </correlations>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045833" parentInstanceId="116045826" date="2026-06-05 18:27:39.760 MDT" lastUpdatedDate="2026-06-05 18:57:42.078 MDT" elapsedTime="1802318" timestamp="1780705659760" state="18" actionType="operation" actionName="PublishAerialWires" subType="bpel" type="component">
+        <entityName>AerialWires</entityName>
+        <compositeInstanceId>36670814</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <ednPublishedEvents>
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="86920931-613e-11f1-872a-1e59e8d00118" date="2026-06-05 18:27:39.875 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="b8c3c780-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:57:42.074 MDT" />
+       </ednPublishedEvents>
+        <correlations>
+            <correlation flowId="20893718" parentInstanceId="116045931" ednEventName="{urn:epcor:as:ivara:IvaraEvent}AerialWireTriggerStartEvent" ednEventId="0f487b5e-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:52:57.766 MDT" />
+            <correlation flowId="20893829" parentInstanceId="116046449" operation="uploadAerialWiresResult" date="2026-06-05 18:57:42.032 MDT" />
+       </correlations>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045834" date="2026-06-05 18:27:39.799 MDT" lastUpdatedDate="2026-06-05 18:27:39.799 MDT" elapsedTime="0" timestamp="1780705659799" state="18" actionType="operation" actionName="Read" subType="binding.jca" type="service">
+        <entityName>EOTransformers</entityName>
+        <compositeInstanceId>36670817</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045835" parentInstanceId="116045834" date="2026-06-05 18:27:39.799 MDT" lastUpdatedDate="2026-06-05 18:27:39.813 MDT" elapsedTime="14" timestamp="1780705659799" state="18" actionType="operation" actionName="Read" subType="mediator" type="component">
+        <entityName>EOTransformerMediator</entityName>
+        <compositeInstanceId>36670817</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045836" parentInstanceId="116045835" date="2026-06-05 18:27:39.811 MDT" lastUpdatedDate="2026-06-05 18:59:19.857 MDT" elapsedTime="1900046" timestamp="1780705659811" state="18" actionType="operation" actionName="PublishTransformers" subType="bpel" type="component">
+        <entityName>Transformers</entityName>
+        <compositeInstanceId>36670817</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <ednPublishedEvents>
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="868bee7e-613e-11f1-872a-1e59e8d00118" date="2026-06-05 18:27:39.835 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="f30b8422-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:59:19.852 MDT" />
+       </ednPublishedEvents>
+        <correlations>
+            <correlation flowId="20893718" parentInstanceId="116045931" ednEventName="{urn:epcor:as:ivara:IvaraEvent}TransformerTriggerStartEvent" ednEventId="e40f2763-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:58:56.411 MDT" />
+            <correlation flowId="20893834" parentInstanceId="116046464" operation="uploadTranformersResult" date="2026-06-05 18:59:16.645 MDT" />
+            <correlation flowId="20893835" parentInstanceId="116046467" operation="uploadTranformersResult" date="2026-06-05 18:59:19.824 MDT" />
+       </correlations>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045837" parentInstanceId="116045806" date="2026-06-05 18:27:43.929 MDT" lastUpdatedDate="2026-06-05 18:27:43.959 MDT" elapsedTime="30" timestamp="1780705663929" state="18" actionType="event" actionName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="866d6a11-613e-11f1-872a-1e59e8d00118" subType="bpel" type="component">
+        <entityName>AssetSetsManagerFactory</entityName>
+        <compositeInstanceId>36670807</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="L116045838" parentInstanceId="116045837" date="2026-06-05 18:27:43.955 MDT" lastUpdatedDate="2026-06-05 18:27:43.957 MDT" elapsedTime="2" timestamp="1780705663955" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="reference">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670807</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>    <entry instanceId="116045838" parentInstanceId="L116045838" date="2026-06-05 18:27:43.955 MDT" lastUpdatedDate="2026-06-05 18:27:43.957 MDT" elapsedTime="2" timestamp="1780705663955" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="service">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670818</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045839" parentInstanceId="116045838" date="2026-06-05 18:27:43.956 MDT" lastUpdatedDate="2026-06-05 18:27:43.957 MDT" elapsedTime="1" timestamp="1780705663956" state="18" actionType="operation" actionName="lockComposite" subType="mediator" type="component">
+        <entityName>InstanceManagerMediator</entityName>
+        <compositeInstanceId>36670818</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045840" parentInstanceId="116045839" date="2026-06-05 18:27:43.957 MDT" lastUpdatedDate="2026-06-05 18:27:43.957 MDT" elapsedTime="0" timestamp="1780705663957" state="17" actionType="operation" actionName="lockComposite" subType="spring" type="component">
+        <entityName>InstanceManagerSpring</entityName>
+        <compositeInstanceId>36670818</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>RUNNING,CLEAR</status>
+    </entry>
+    <entry instanceId="116045841" parentInstanceId="116045805" date="2026-06-05 18:27:45.569 MDT" lastUpdatedDate="2026-06-05 18:27:45.604 MDT" elapsedTime="35" timestamp="1780705665569" state="18" actionType="event" actionName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="8671d6f2-613e-11f1-872a-1e59e8d00118" subType="bpel" type="component">
+        <entityName>AssetSetsManagerFactory</entityName>
+        <compositeInstanceId>36670806</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="L116045842" parentInstanceId="116045841" date="2026-06-05 18:27:45.599 MDT" lastUpdatedDate="2026-06-05 18:27:45.601 MDT" elapsedTime="2" timestamp="1780705665599" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="reference">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670806</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>    <entry instanceId="116045842" parentInstanceId="L116045842" date="2026-06-05 18:27:45.599 MDT" lastUpdatedDate="2026-06-05 18:27:45.601 MDT" elapsedTime="2" timestamp="1780705665599" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="service">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670819</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045843" parentInstanceId="116045842" date="2026-06-05 18:27:45.600 MDT" lastUpdatedDate="2026-06-05 18:27:45.601 MDT" elapsedTime="1" timestamp="1780705665600" state="18" actionType="operation" actionName="lockComposite" subType="mediator" type="component">
+        <entityName>InstanceManagerMediator</entityName>
+        <compositeInstanceId>36670819</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045844" parentInstanceId="116045843" date="2026-06-05 18:27:45.600 MDT" lastUpdatedDate="2026-06-05 18:27:45.601 MDT" elapsedTime="1" timestamp="1780705665600" state="18" actionType="operation" actionName="lockComposite" subType="spring" type="component">
+        <entityName>InstanceManagerSpring</entityName>
+        <compositeInstanceId>36670819</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045845" parentInstanceId="116045809" date="2026-06-05 18:27:45.962 MDT" lastUpdatedDate="2026-06-05 18:27:45.985 MDT" elapsedTime="23" timestamp="1780705665962" state="18" actionType="event" actionName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="8674bd33-613e-11f1-872a-1e59e8d00118" subType="bpel" type="component">
+        <entityName>AssetSetsManagerFactory</entityName>
+        <compositeInstanceId>36670808</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="L116045846" parentInstanceId="116045845" date="2026-06-05 18:27:45.981 MDT" lastUpdatedDate="2026-06-05 18:27:45.983 MDT" elapsedTime="2" timestamp="1780705665981" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="reference">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670808</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>    <entry instanceId="116045846" parentInstanceId="L116045846" date="2026-06-05 18:27:45.981 MDT" lastUpdatedDate="2026-06-05 18:27:45.983 MDT" elapsedTime="2" timestamp="1780705665981" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="service">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670820</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045847" parentInstanceId="116045846" date="2026-06-05 18:27:45.982 MDT" lastUpdatedDate="2026-06-05 18:27:45.983 MDT" elapsedTime="1" timestamp="1780705665982" state="18" actionType="operation" actionName="lockComposite" subType="mediator" type="component">
+        <entityName>InstanceManagerMediator</entityName>
+        <compositeInstanceId>36670820</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045848" parentInstanceId="116045847" date="2026-06-05 18:27:45.982 MDT" lastUpdatedDate="2026-06-05 18:27:45.982 MDT" elapsedTime="0" timestamp="1780705665982" state="17" actionType="operation" actionName="lockComposite" subType="spring" type="component">
+        <entityName>InstanceManagerSpring</entityName>
+        <compositeInstanceId>36670820</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>RUNNING,CLEAR</status>
+    </entry>
+    <entry instanceId="116045849" parentInstanceId="116045814" date="2026-06-05 18:27:46.890 MDT" lastUpdatedDate="2026-06-05 18:27:46.913 MDT" elapsedTime="23" timestamp="1780705666890" state="18" actionType="event" actionName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="867a62aa-613e-11f1-872a-1e59e8d00118" subType="bpel" type="component">
+        <entityName>AssetSetsManagerFactory</entityName>
+        <compositeInstanceId>36670809</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="L116045850" parentInstanceId="116045849" date="2026-06-05 18:27:46.909 MDT" lastUpdatedDate="2026-06-05 18:27:46.911 MDT" elapsedTime="2" timestamp="1780705666909" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="reference">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670809</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>    <entry instanceId="116045850" parentInstanceId="L116045850" date="2026-06-05 18:27:46.909 MDT" lastUpdatedDate="2026-06-05 18:27:46.911 MDT" elapsedTime="2" timestamp="1780705666909" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="service">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670821</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045852" parentInstanceId="116045851" date="2026-06-05 18:27:46.910 MDT" lastUpdatedDate="2026-06-05 18:27:46.911 MDT" elapsedTime="1" timestamp="1780705666910" state="18" actionType="operation" actionName="lockComposite" subType="spring" type="component">
+        <entityName>InstanceManagerSpring</entityName>
+        <compositeInstanceId>36670821</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045851" parentInstanceId="116045850" date="2026-06-05 18:27:46.910 MDT" lastUpdatedDate="2026-06-05 18:27:46.911 MDT" elapsedTime="1" timestamp="1780705666910" state="18" actionType="operation" actionName="lockComposite" subType="mediator" type="component">
+        <entityName>InstanceManagerMediator</entityName>
+        <compositeInstanceId>36670821</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045853" parentInstanceId="116045815" date="2026-06-05 18:27:47.582 MDT" lastUpdatedDate="2026-06-05 18:27:47.604 MDT" elapsedTime="22" timestamp="1780705667582" state="18" actionType="event" actionName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="86800733-613e-11f1-872a-1e59e8d00118" subType="bpel" type="component">
+        <entityName>AssetSetsManagerFactory</entityName>
+        <compositeInstanceId>36670810</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="L116045854" parentInstanceId="116045853" date="2026-06-05 18:27:47.600 MDT" lastUpdatedDate="2026-06-05 18:27:47.602 MDT" elapsedTime="2" timestamp="1780705667600" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="reference">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670810</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>    <entry instanceId="116045854" parentInstanceId="L116045854" date="2026-06-05 18:27:47.600 MDT" lastUpdatedDate="2026-06-05 18:27:47.602 MDT" elapsedTime="2" timestamp="1780705667600" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="service">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670822</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045856" parentInstanceId="116045855" date="2026-06-05 18:27:47.601 MDT" lastUpdatedDate="2026-06-05 18:27:47.602 MDT" elapsedTime="1" timestamp="1780705667601" state="18" actionType="operation" actionName="lockComposite" subType="spring" type="component">
+        <entityName>InstanceManagerSpring</entityName>
+        <compositeInstanceId>36670822</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045855" parentInstanceId="116045854" date="2026-06-05 18:27:47.601 MDT" lastUpdatedDate="2026-06-05 18:27:47.602 MDT" elapsedTime="1" timestamp="1780705667601" state="18" actionType="operation" actionName="lockComposite" subType="mediator" type="component">
+        <entityName>InstanceManagerMediator</entityName>
+        <compositeInstanceId>36670822</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045857" parentInstanceId="116045818" date="2026-06-05 18:27:47.894 MDT" lastUpdatedDate="2026-06-05 18:27:47.915 MDT" elapsedTime="21" timestamp="1780705667894" state="18" actionType="event" actionName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="8684c24e-613e-11f1-872a-1e59e8d00118" subType="bpel" type="component">
+        <entityName>AssetSetsManagerFactory</entityName>
+        <compositeInstanceId>36670811</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="L116045858" parentInstanceId="116045857" date="2026-06-05 18:27:47.912 MDT" lastUpdatedDate="2026-06-05 18:27:47.913 MDT" elapsedTime="1" timestamp="1780705667912" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="reference">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670811</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>    <entry instanceId="116045858" parentInstanceId="L116045858" date="2026-06-05 18:27:47.912 MDT" lastUpdatedDate="2026-06-05 18:27:47.913 MDT" elapsedTime="1" timestamp="1780705667912" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="service">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670823</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045859" parentInstanceId="116045858" date="2026-06-05 18:27:47.912 MDT" lastUpdatedDate="2026-06-05 18:27:47.913 MDT" elapsedTime="1" timestamp="1780705667912" state="18" actionType="operation" actionName="lockComposite" subType="mediator" type="component">
+        <entityName>InstanceManagerMediator</entityName>
+        <compositeInstanceId>36670823</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045860" parentInstanceId="116045859" date="2026-06-05 18:27:47.913 MDT" lastUpdatedDate="2026-06-05 18:27:47.913 MDT" elapsedTime="0" timestamp="1780705667913" state="17" actionType="operation" actionName="lockComposite" subType="spring" type="component">
+        <entityName>InstanceManagerSpring</entityName>
+        <compositeInstanceId>36670823</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>RUNNING,CLEAR</status>
+    </entry>
+    <entry instanceId="116045861" parentInstanceId="116045823" date="2026-06-05 18:27:48.566 MDT" lastUpdatedDate="2026-06-05 18:27:48.591 MDT" elapsedTime="25" timestamp="1780705668566" state="18" actionType="event" actionName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="8685d3cf-613e-11f1-872a-1e59e8d00118" subType="bpel" type="component">
+        <entityName>AssetSetsManagerFactory</entityName>
+        <compositeInstanceId>36670812</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="L116045862" parentInstanceId="116045861" date="2026-06-05 18:27:48.586 MDT" lastUpdatedDate="2026-06-05 18:27:48.588 MDT" elapsedTime="2" timestamp="1780705668586" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="reference">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670812</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>    <entry instanceId="116045862" parentInstanceId="L116045862" date="2026-06-05 18:27:48.586 MDT" lastUpdatedDate="2026-06-05 18:27:48.588 MDT" elapsedTime="2" timestamp="1780705668586" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="service">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670824</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045863" parentInstanceId="116045862" date="2026-06-05 18:27:48.587 MDT" lastUpdatedDate="2026-06-05 18:27:48.588 MDT" elapsedTime="1" timestamp="1780705668587" state="18" actionType="operation" actionName="lockComposite" subType="mediator" type="component">
+        <entityName>InstanceManagerMediator</entityName>
+        <compositeInstanceId>36670824</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045864" parentInstanceId="116045863" date="2026-06-05 18:27:48.587 MDT" lastUpdatedDate="2026-06-05 18:27:48.587 MDT" elapsedTime="0" timestamp="1780705668587" state="17" actionType="operation" actionName="lockComposite" subType="spring" type="component">
+        <entityName>InstanceManagerSpring</entityName>
+        <compositeInstanceId>36670824</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>RUNNING,CLEAR</status>
+    </entry>
+    <entry instanceId="116045865" parentInstanceId="116045824" date="2026-06-05 18:27:48.605 MDT" lastUpdatedDate="2026-06-05 18:27:48.640 MDT" elapsedTime="35" timestamp="1780705668605" state="18" actionType="event" actionName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="86897d6b-613e-11f1-872a-1e59e8d00118" subType="bpel" type="component">
+        <entityName>AssetSetsManagerFactory</entityName>
+        <compositeInstanceId>36670813</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045866" parentInstanceId="116045832" date="2026-06-05 18:27:48.622 MDT" lastUpdatedDate="2026-06-05 18:27:48.643 MDT" elapsedTime="21" timestamp="1780705668622" state="18" actionType="event" actionName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="868b794c-613e-11f1-872a-1e59e8d00118" subType="bpel" type="component">
+        <entityName>AssetSetsManagerFactory</entityName>
+        <compositeInstanceId>36670816</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="L116045867" parentInstanceId="116045865" date="2026-06-05 18:27:48.636 MDT" lastUpdatedDate="2026-06-05 18:27:48.638 MDT" elapsedTime="2" timestamp="1780705668636" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="reference">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670813</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>    <entry instanceId="116045867" parentInstanceId="L116045867" date="2026-06-05 18:27:48.636 MDT" lastUpdatedDate="2026-06-05 18:27:48.638 MDT" elapsedTime="2" timestamp="1780705668636" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="service">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670825</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045868" parentInstanceId="116045867" date="2026-06-05 18:27:48.637 MDT" lastUpdatedDate="2026-06-05 18:27:48.638 MDT" elapsedTime="1" timestamp="1780705668637" state="18" actionType="operation" actionName="lockComposite" subType="mediator" type="component">
+        <entityName>InstanceManagerMediator</entityName>
+        <compositeInstanceId>36670825</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045869" parentInstanceId="116045868" date="2026-06-05 18:27:48.637 MDT" lastUpdatedDate="2026-06-05 18:27:48.637 MDT" elapsedTime="0" timestamp="1780705668637" state="17" actionType="operation" actionName="lockComposite" subType="spring" type="component">
+        <entityName>InstanceManagerSpring</entityName>
+        <compositeInstanceId>36670825</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>RUNNING,CLEAR</status>
+    </entry>
+    <entry instanceId="L116045870" parentInstanceId="116045866" date="2026-06-05 18:27:48.638 MDT" lastUpdatedDate="2026-06-05 18:27:48.641 MDT" elapsedTime="3" timestamp="1780705668638" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="reference">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670816</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>    <entry instanceId="116045870" parentInstanceId="L116045870" date="2026-06-05 18:27:48.638 MDT" lastUpdatedDate="2026-06-05 18:27:48.641 MDT" elapsedTime="3" timestamp="1780705668638" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="service">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670826</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045871" parentInstanceId="116045870" date="2026-06-05 18:27:48.640 MDT" lastUpdatedDate="2026-06-05 18:27:48.641 MDT" elapsedTime="1" timestamp="1780705668640" state="18" actionType="operation" actionName="lockComposite" subType="mediator" type="component">
+        <entityName>InstanceManagerMediator</entityName>
+        <compositeInstanceId>36670826</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045872" parentInstanceId="116045871" date="2026-06-05 18:27:48.641 MDT" lastUpdatedDate="2026-06-05 18:27:48.641 MDT" elapsedTime="0" timestamp="1780705668641" state="17" actionType="operation" actionName="lockComposite" subType="spring" type="component">
+        <entityName>InstanceManagerSpring</entityName>
+        <compositeInstanceId>36670826</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>RUNNING,CLEAR</status>
+    </entry>
+    <entry instanceId="116045873" parentInstanceId="116045829" date="2026-06-05 18:27:48.654 MDT" lastUpdatedDate="2026-06-05 18:27:48.670 MDT" elapsedTime="16" timestamp="1780705668654" state="18" actionType="event" actionName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="868b794d-613e-11f1-872a-1e59e8d00118" subType="bpel" type="component">
+        <entityName>AssetSetsManagerFactory</entityName>
+        <compositeInstanceId>36670815</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="L116045874" parentInstanceId="116045873" date="2026-06-05 18:27:48.666 MDT" lastUpdatedDate="2026-06-05 18:27:48.668 MDT" elapsedTime="2" timestamp="1780705668666" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="reference">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670815</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>    <entry instanceId="116045874" parentInstanceId="L116045874" date="2026-06-05 18:27:48.666 MDT" lastUpdatedDate="2026-06-05 18:27:48.668 MDT" elapsedTime="2" timestamp="1780705668666" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="service">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670827</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045875" parentInstanceId="116045874" date="2026-06-05 18:27:48.667 MDT" lastUpdatedDate="2026-06-05 18:27:48.668 MDT" elapsedTime="1" timestamp="1780705668667" state="18" actionType="operation" actionName="lockComposite" subType="mediator" type="component">
+        <entityName>InstanceManagerMediator</entityName>
+        <compositeInstanceId>36670827</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045876" parentInstanceId="116045875" date="2026-06-05 18:27:48.668 MDT" lastUpdatedDate="2026-06-05 18:27:48.668 MDT" elapsedTime="0" timestamp="1780705668668" state="17" actionType="operation" actionName="lockComposite" subType="spring" type="component">
+        <entityName>InstanceManagerSpring</entityName>
+        <compositeInstanceId>36670827</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>RUNNING,CLEAR</status>
+    </entry>
+    <entry instanceId="116045877" parentInstanceId="116045836" date="2026-06-05 18:27:48.690 MDT" lastUpdatedDate="2026-06-05 18:27:48.707 MDT" elapsedTime="17" timestamp="1780705668690" state="18" actionType="event" actionName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="868bee7e-613e-11f1-872a-1e59e8d00118" subType="bpel" type="component">
+        <entityName>AssetSetsManagerFactory</entityName>
+        <compositeInstanceId>36670817</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="L116045878" parentInstanceId="116045877" date="2026-06-05 18:27:48.703 MDT" lastUpdatedDate="2026-06-05 18:27:48.705 MDT" elapsedTime="2" timestamp="1780705668703" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="reference">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670817</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>    <entry instanceId="116045878" parentInstanceId="L116045878" date="2026-06-05 18:27:48.703 MDT" lastUpdatedDate="2026-06-05 18:27:48.705 MDT" elapsedTime="2" timestamp="1780705668703" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="service">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670828</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045879" parentInstanceId="116045878" date="2026-06-05 18:27:48.704 MDT" lastUpdatedDate="2026-06-05 18:27:48.705 MDT" elapsedTime="1" timestamp="1780705668704" state="18" actionType="operation" actionName="lockComposite" subType="mediator" type="component">
+        <entityName>InstanceManagerMediator</entityName>
+        <compositeInstanceId>36670828</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045880" parentInstanceId="116045879" date="2026-06-05 18:27:48.704 MDT" lastUpdatedDate="2026-06-05 18:27:48.705 MDT" elapsedTime="1" timestamp="1780705668704" state="18" actionType="operation" actionName="lockComposite" subType="spring" type="component">
+        <entityName>InstanceManagerSpring</entityName>
+        <compositeInstanceId>36670828</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045881" parentInstanceId="116045833" date="2026-06-05 18:27:48.728 MDT" lastUpdatedDate="2026-06-05 18:27:48.763 MDT" elapsedTime="35" timestamp="1780705668728" state="18" actionType="event" actionName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerEvent" ednEventId="86920931-613e-11f1-872a-1e59e8d00118" subType="bpel" type="component">
+        <entityName>AssetSetsManagerFactory</entityName>
+        <compositeInstanceId>36670814</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="L116045882" parentInstanceId="116045881" date="2026-06-05 18:27:48.760 MDT" lastUpdatedDate="2026-06-05 18:27:48.761 MDT" elapsedTime="1" timestamp="1780705668760" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="reference">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670814</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>    <entry instanceId="116045882" parentInstanceId="L116045882" date="2026-06-05 18:27:48.760 MDT" lastUpdatedDate="2026-06-05 18:27:48.761 MDT" elapsedTime="1" timestamp="1780705668760" state="18" actionType="operation" actionName="lockComposite" subType="binding.local" type="service">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670829</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045883" parentInstanceId="116045882" date="2026-06-05 18:27:48.760 MDT" lastUpdatedDate="2026-06-05 18:27:48.761 MDT" elapsedTime="1" timestamp="1780705668760" state="18" actionType="operation" actionName="lockComposite" subType="mediator" type="component">
+        <entityName>InstanceManagerMediator</entityName>
+        <compositeInstanceId>36670829</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045884" parentInstanceId="116045883" date="2026-06-05 18:27:48.761 MDT" lastUpdatedDate="2026-06-05 18:27:48.761 MDT" elapsedTime="0" timestamp="1780705668761" state="17" actionType="operation" actionName="lockComposite" subType="spring" type="component">
+        <entityName>InstanceManagerSpring</entityName>
+        <compositeInstanceId>36670829</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>RUNNING,CLEAR</status>
+    </entry>
+    <entry instanceId="116045931" parentInstanceId="116045788" date="2026-06-05 18:32:53.612 MDT" lastUpdatedDate="2026-06-05 19:02:22.463 MDT" elapsedTime="1768851" timestamp="1780705973612" state="18" actionType="event" actionName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerSetStartEvent" ednEventId="3ebbba2e-613f-11f1-872a-1e59e8d00118" subType="bpel" type="component">
+        <entityName>AssetSequenceManager</entityName>
+        <compositeInstanceId>36670798</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <ednPublishedEvents>
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}PoleTriggerStartEvent" ednEventId="41965082-613f-11f1-872a-1e59e8d00118" date="2026-06-05 18:32:53.637 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}TransPoleTriggerStartEvent" ednEventId="27c37c83-6140-11f1-872a-1e59e8d00118" date="2026-06-05 18:39:19.809 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}PadTriggerStartEvent" ednEventId="2b5a860f-6140-11f1-872a-1e59e8d00118" date="2026-06-05 18:39:25.832 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}PedestalTriggerStartEvent" ednEventId="39ad3629-6140-11f1-872a-1e59e8d00118" date="2026-06-05 18:39:49.862 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}DecorativePoleTriggerStartEvent" ednEventId="0a7cc212-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:52:49.685 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AerialWireTriggerStartEvent" ednEventId="0f487b5e-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:52:57.732 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}LuminaireTriggerStartEvent" ednEventId="ba798dd3-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:57:44.943 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}VaultTriggerStartEvent" ednEventId="bf43c02f-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:57:52.979 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}VaultTriggerStartEvent" ednEventId="c99ecf49-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:58:10.353 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}ManholeTriggerStartEvent" ednEventId="d0cdccc3-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:58:22.405 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}HandholeTriggerStartEvent" ednEventId="da82ffed-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:58:38.692 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AerialSwitchTriggerStartEvent" ednEventId="db1d4439-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:58:39.703 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}TransformerTriggerStartEvent" ednEventId="e40f2763-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:58:54.710 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}CabinetTriggerStartEvent" ednEventId="f5563775-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:59:23.697 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}ConductorTriggerStartEvent" ednEventId="f6f45731-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:59:26.411 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}CableTriggerStartEvent" ednEventId="32030ded-6143-11f1-872a-1e59e8d00118" date="2026-06-05 19:01:05.493 MDT" />
+            <ednPublishedEvent ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerSetCompletionEvent" ednEventId="5fe28629-6143-11f1-872a-1e59e8d00118" date="2026-06-05 19:02:22.455 MDT" />
+       </ednPublishedEvents>
+        <correlations>
+            <correlation flowId="20893721" parentInstanceId="116045805" ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="24f20d00-6140-11f1-872a-1e59e8d00118" date="2026-06-05 18:39:19.773 MDT" />
+            <correlation flowId="20893724" parentInstanceId="116045814" ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="29afe34c-6140-11f1-872a-1e59e8d00118" date="2026-06-05 18:39:25.800 MDT" />
+            <correlation flowId="20893719" parentInstanceId="116045782" ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="388e3196-6140-11f1-872a-1e59e8d00118" date="2026-06-05 18:39:49.830 MDT" />
+            <correlation flowId="20893718" parentInstanceId="116045781" ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="08efe07f-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:52:49.650 MDT" />
+            <correlation flowId="20893722" parentInstanceId="116045806" ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="0d79607d-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:52:57.700 MDT" />
+            <correlation flowId="20893729" parentInstanceId="116045833" ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="b8c3c780-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:57:44.910 MDT" />
+            <correlation flowId="20893723" parentInstanceId="116045809" ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="bd96fa8c-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:57:52.950 MDT" />
+            <correlation flowId="20893728" parentInstanceId="116045824" ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="c4b79f26-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:58:10.325 MDT" />
+            <correlation flowId="20893730" parentInstanceId="116045829" ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="cf4271d0-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:58:22.376 MDT" />
+            <correlation flowId="20893726" parentInstanceId="116045818" ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="d989abca-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:58:38.663 MDT" />
+            <correlation flowId="20893731" parentInstanceId="116045832" ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="daec4926-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:58:39.673 MDT" />
+            <correlation flowId="20893727" parentInstanceId="116045823" ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="e1f743e0-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:58:54.669 MDT" />
+            <correlation flowId="20893732" parentInstanceId="116045836" ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="f30b8422-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:59:23.664 MDT" />
+            <correlation flowId="20893717" parentInstanceId="116045779" ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="f6ecdd1e-6142-11f1-872a-1e59e8d00118" date="2026-06-05 18:59:26.382 MDT" />
+            <correlation flowId="20893725" parentInstanceId="116045815" ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="314fea82-6143-11f1-872a-1e59e8d00118" date="2026-06-05 19:01:05.459 MDT" />
+            <correlation flowId="20893720" parentInstanceId="116045783" ednEventName="{urn:epcor:as:ivara:IvaraEvent}AssetTriggerCompletionEvent" ednEventId="5f3b70b6-6143-11f1-872a-1e59e8d00118" date="2026-06-05 19:02:22.417 MDT" />
+       </correlations>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045932" parentInstanceId="116045805" date="2026-06-05 18:32:54.656 MDT" lastUpdatedDate="2026-06-05 18:32:55.448 MDT" elapsedTime="792" timestamp="1780705974656" state="18" actionType="operation" actionName="CreatePoles" subType="binding.ws" type="reference">
+        <entityName>Assets</entityName>
+        <compositeInstanceId>36670806</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="E313164381" parentInstanceId="116045932" externalComponent="OSB" date="2026-06-05 18:32:54.657 MDT" timestamp="1780705974657" >
+    </entry>
+    <entry instanceId="116045936" parentInstanceId="116045935" date="2026-06-05 18:39:15.042 MDT" lastUpdatedDate="2026-06-05 18:39:15.045 MDT" elapsedTime="3" timestamp="1780706355042" state="18" actionType="operation" actionName="uploadPoles" subType="mediator" type="component">
+        <entityName>AssetsCallbackMediator</entityName>
+        <compositeInstanceId>36670844</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045935" date="2026-06-05 18:39:15.042 MDT" lastUpdatedDate="2026-06-05 18:39:15.054 MDT" elapsedTime="12" timestamp="1780706355042" state="18" actionType="operation" actionName="uploadPoles" subType="binding.ws" type="service">
+        <entityName>AssetsCallback</entityName>
+        <compositeInstanceId>36670844</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045937" parentInstanceId="116045782" date="2026-06-05 18:39:25.883 MDT" lastUpdatedDate="2026-06-05 18:39:25.903 MDT" elapsedTime="20" timestamp="1780706365883" state="18" actionType="operation" actionName="CreatePads" subType="binding.ws" type="reference">
+        <entityName>Assets</entityName>
+        <compositeInstanceId>36670800</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="E313164419" parentInstanceId="116045937" externalComponent="OSB" date="2026-06-05 18:39:25.883 MDT" timestamp="1780706365883" >
+    </entry>
+    <entry instanceId="116045939" parentInstanceId="116045938" date="2026-06-05 18:39:47.953 MDT" lastUpdatedDate="2026-06-05 18:39:47.955 MDT" elapsedTime="2" timestamp="1780706387953" state="18" actionType="operation" actionName="uploadPads" subType="mediator" type="component">
+        <entityName>AssetsCallbackMediator</entityName>
+        <compositeInstanceId>36670845</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045938" date="2026-06-05 18:39:47.953 MDT" lastUpdatedDate="2026-06-05 18:39:47.964 MDT" elapsedTime="11" timestamp="1780706387953" state="18" actionType="operation" actionName="uploadPads" subType="binding.ws" type="service">
+        <entityName>AssetsCallback</entityName>
+        <compositeInstanceId>36670845</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116045940" parentInstanceId="116045781" date="2026-06-05 18:39:53.042 MDT" lastUpdatedDate="2026-06-05 18:39:53.306 MDT" elapsedTime="264" timestamp="1780706393042" state="18" actionType="operation" actionName="CreatePedestals" subType="binding.ws" type="reference">
+        <entityName>Assets</entityName>
+        <compositeInstanceId>36670798</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="E313164440" parentInstanceId="116045940" externalComponent="OSB" date="2026-06-05 18:39:53.042 MDT" timestamp="1780706393042" >
+    </entry>
+    <entry instanceId="116046178" date="2026-06-05 18:52:47.048 MDT" lastUpdatedDate="2026-06-05 18:52:47.060 MDT" elapsedTime="12" timestamp="1780707167048" state="18" actionType="operation" actionName="uploadPedestals" subType="binding.ws" type="service">
+        <entityName>AssetsCallback</entityName>
+        <compositeInstanceId>36670897</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116046179" parentInstanceId="116046178" date="2026-06-05 18:52:47.048 MDT" lastUpdatedDate="2026-06-05 18:52:47.050 MDT" elapsedTime="2" timestamp="1780707167048" state="18" actionType="operation" actionName="uploadPedestals" subType="mediator" type="component">
+        <entityName>AssetsCallbackMediator</entityName>
+        <compositeInstanceId>36670897</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116046210" parentInstanceId="116045833" date="2026-06-05 18:52:57.805 MDT" lastUpdatedDate="2026-06-05 18:52:57.851 MDT" elapsedTime="46" timestamp="1780707177805" state="18" actionType="operation" actionName="CreateAerialWires" subType="binding.ws" type="reference">
+        <entityName>Assets</entityName>
+        <compositeInstanceId>36670814</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="E313165222" parentInstanceId="116046210" externalComponent="OSB" date="2026-06-05 18:52:57.805 MDT" timestamp="1780707177805" >
+    </entry>
+    <entry instanceId="116046448" date="2026-06-05 18:57:42.030 MDT" lastUpdatedDate="2026-06-05 18:57:42.042 MDT" elapsedTime="12" timestamp="1780707462030" state="18" actionType="operation" actionName="uploadAerialWires" subType="binding.ws" type="service">
+        <entityName>AssetsCallback</entityName>
+        <compositeInstanceId>36670947</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116046449" parentInstanceId="116046448" date="2026-06-05 18:57:42.030 MDT" lastUpdatedDate="2026-06-05 18:57:42.033 MDT" elapsedTime="3" timestamp="1780707462030" state="18" actionType="operation" actionName="uploadAerialWires" subType="mediator" type="component">
+        <entityName>AssetsCallbackMediator</entityName>
+        <compositeInstanceId>36670947</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116046450" parentInstanceId="116045824" date="2026-06-05 18:57:56.678 MDT" lastUpdatedDate="2026-06-05 18:57:56.695 MDT" elapsedTime="17" timestamp="1780707476678" state="18" actionType="operation" actionName="CreateVaults" subType="binding.ws" type="reference">
+        <entityName>Assets</entityName>
+        <compositeInstanceId>36670813</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="E313165922" parentInstanceId="116046450" externalComponent="OSB" date="2026-06-05 18:57:56.678 MDT" timestamp="1780707476678" >
+    </entry>
+    <entry instanceId="116046451" date="2026-06-05 18:58:02.084 MDT" lastUpdatedDate="2026-06-05 18:58:02.098 MDT" elapsedTime="14" timestamp="1780707482084" state="18" actionType="operation" actionName="uploadVaults" subType="binding.ws" type="service">
+        <entityName>AssetsCallback</entityName>
+        <compositeInstanceId>36670948</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116046452" parentInstanceId="116046451" date="2026-06-05 18:58:02.084 MDT" lastUpdatedDate="2026-06-05 18:58:02.086 MDT" elapsedTime="2" timestamp="1780707482084" state="18" actionType="operation" actionName="uploadVaults" subType="mediator" type="component">
+        <entityName>AssetsCallbackMediator</entityName>
+        <compositeInstanceId>36670948</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="E313165944" parentInstanceId="116046453" externalComponent="OSB" date="2026-06-05 18:58:15.366 MDT" timestamp="1780707495366" >
+    </entry>
+    <entry instanceId="116046453" parentInstanceId="116045829" date="2026-06-05 18:58:15.366 MDT" lastUpdatedDate="2026-06-05 18:58:15.381 MDT" elapsedTime="15" timestamp="1780707495366" state="18" actionType="operation" actionName="CreateVaults" subType="binding.ws" type="reference">
+        <entityName>Assets</entityName>
+        <compositeInstanceId>36670815</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116046454" date="2026-06-05 18:58:19.783 MDT" lastUpdatedDate="2026-06-05 18:58:19.794 MDT" elapsedTime="11" timestamp="1780707499783" state="18" actionType="operation" actionName="uploadVaults" subType="binding.ws" type="service">
+        <entityName>AssetsCallback</entityName>
+        <compositeInstanceId>36670949</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116046455" parentInstanceId="116046454" date="2026-06-05 18:58:19.783 MDT" lastUpdatedDate="2026-06-05 18:58:19.785 MDT" elapsedTime="2" timestamp="1780707499783" state="18" actionType="operation" actionName="uploadVaults" subType="mediator" type="component">
+        <entityName>AssetsCallbackMediator</entityName>
+        <compositeInstanceId>36670949</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="E313165966" parentInstanceId="116046456" externalComponent="OSB" date="2026-06-05 18:58:24.723 MDT" timestamp="1780707504723" >
+    </entry>
+    <entry instanceId="116046456" parentInstanceId="116045818" date="2026-06-05 18:58:24.723 MDT" lastUpdatedDate="2026-06-05 18:58:24.730 MDT" elapsedTime="7" timestamp="1780707504723" state="18" actionType="operation" actionName="CreateManholes" subType="binding.ws" type="reference">
+        <entityName>Assets</entityName>
+        <compositeInstanceId>36670811</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116046457" date="2026-06-05 18:58:37.032 MDT" lastUpdatedDate="2026-06-05 18:58:37.044 MDT" elapsedTime="12" timestamp="1780707517032" state="18" actionType="operation" actionName="uploadManholes" subType="binding.ws" type="service">
+        <entityName>AssetsCallback</entityName>
+        <compositeInstanceId>36670950</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116046458" parentInstanceId="116046457" date="2026-06-05 18:58:37.032 MDT" lastUpdatedDate="2026-06-05 18:58:37.034 MDT" elapsedTime="2" timestamp="1780707517032" state="18" actionType="operation" actionName="uploadManholes" subType="mediator" type="component">
+        <entityName>AssetsCallbackMediator</entityName>
+        <compositeInstanceId>36670950</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="E313165999" parentInstanceId="116046459" externalComponent="OSB" date="2026-06-05 18:58:44.726 MDT" timestamp="1780707524726" >
+    </entry>
+    <entry instanceId="116046459" parentInstanceId="116045823" date="2026-06-05 18:58:44.726 MDT" lastUpdatedDate="2026-06-05 18:58:44.745 MDT" elapsedTime="19" timestamp="1780707524726" state="18" actionType="operation" actionName="CreateAerialSwitches" subType="binding.ws" type="reference">
+        <entityName>Assets</entityName>
+        <compositeInstanceId>36670812</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116046460" date="2026-06-05 18:58:51.155 MDT" lastUpdatedDate="2026-06-05 18:58:51.170 MDT" elapsedTime="15" timestamp="1780707531155" state="18" actionType="operation" actionName="uploadAerialSwitches" subType="binding.ws" type="service">
+        <entityName>AssetsCallback</entityName>
+        <compositeInstanceId>36670951</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116046461" parentInstanceId="116046460" date="2026-06-05 18:58:51.155 MDT" lastUpdatedDate="2026-06-05 18:58:51.158 MDT" elapsedTime="3" timestamp="1780707531155" state="18" actionType="operation" actionName="uploadAerialSwitches" subType="mediator" type="component">
+        <entityName>AssetsCallbackMediator</entityName>
+        <compositeInstanceId>36670951</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="E313166021" parentInstanceId="116046462" externalComponent="OSB" date="2026-06-05 18:58:56.445 MDT" timestamp="1780707536445" >
+    </entry>
+    <entry instanceId="116046462" parentInstanceId="116045836" date="2026-06-05 18:58:56.445 MDT" lastUpdatedDate="2026-06-05 18:58:56.455 MDT" elapsedTime="10" timestamp="1780707536445" state="18" actionType="operation" actionName="UpdateTransformers" subType="binding.ws" type="reference">
+        <entityName>Assets</entityName>
+        <compositeInstanceId>36670817</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116046463" date="2026-06-05 18:59:16.644 MDT" lastUpdatedDate="2026-06-05 18:59:16.656 MDT" elapsedTime="12" timestamp="1780707556644" state="18" actionType="operation" actionName="uploadTransformers" subType="binding.ws" type="service">
+        <entityName>AssetsCallback</entityName>
+        <compositeInstanceId>36670952</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116046464" parentInstanceId="116046463" date="2026-06-05 18:59:16.645 MDT" lastUpdatedDate="2026-06-05 18:59:16.647 MDT" elapsedTime="2" timestamp="1780707556645" state="18" actionType="operation" actionName="uploadTransformers" subType="mediator" type="component">
+        <entityName>AssetsCallbackMediator</entityName>
+        <compositeInstanceId>36670952</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="E313166032" parentInstanceId="116046465" externalComponent="OSB" date="2026-06-05 18:59:16.674 MDT" timestamp="1780707556674" >
+    </entry>
+    <entry instanceId="116046465" parentInstanceId="116045836" date="2026-06-05 18:59:16.674 MDT" lastUpdatedDate="2026-06-05 18:59:16.691 MDT" elapsedTime="17" timestamp="1780707556674" state="18" actionType="operation" actionName="UpdateTransformers" subType="binding.ws" type="reference">
+        <entityName>Assets</entityName>
+        <compositeInstanceId>36670817</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116046466" date="2026-06-05 18:59:19.823 MDT" lastUpdatedDate="2026-06-05 18:59:19.834 MDT" elapsedTime="11" timestamp="1780707559823" state="18" actionType="operation" actionName="uploadTransformers" subType="binding.ws" type="service">
+        <entityName>AssetsCallback</entityName>
+        <compositeInstanceId>36670953</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116046467" parentInstanceId="116046466" date="2026-06-05 18:59:19.824 MDT" lastUpdatedDate="2026-06-05 18:59:19.826 MDT" elapsedTime="2" timestamp="1780707559824" state="18" actionType="operation" actionName="uploadTransformers" subType="mediator" type="component">
+        <entityName>AssetsCallbackMediator</entityName>
+        <compositeInstanceId>36670953</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116046468" parentInstanceId="116045815" date="2026-06-05 18:59:27.392 MDT" lastUpdatedDate="2026-06-05 18:59:27.519 MDT" elapsedTime="127" timestamp="1780707567392" state="18" actionType="operation" actionName="CreateConductors" subType="binding.ws" type="reference">
+        <entityName>Assets</entityName>
+        <compositeInstanceId>36670810</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="E313166065" parentInstanceId="116046468" externalComponent="OSB" date="2026-06-05 18:59:27.393 MDT" timestamp="1780707567393" >
+    </entry>
+    <entry instanceId="116046856" date="2026-06-05 19:01:04.278 MDT" lastUpdatedDate="2026-06-05 19:01:04.291 MDT" elapsedTime="13" timestamp="1780707664278" state="18" actionType="operation" actionName="uploadConductors" subType="binding.ws" type="service">
+        <entityName>AssetsCallback</entityName>
+        <compositeInstanceId>36671080</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116046857" parentInstanceId="116046856" date="2026-06-05 19:01:04.278 MDT" lastUpdatedDate="2026-06-05 19:01:04.281 MDT" elapsedTime="3" timestamp="1780707664278" state="18" actionType="operation" actionName="uploadConductors" subType="mediator" type="component">
+        <entityName>AssetsCallbackMediator</entityName>
+        <compositeInstanceId>36671080</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116046891" parentInstanceId="116045783" date="2026-06-05 19:01:09.724 MDT" lastUpdatedDate="2026-06-05 19:01:09.922 MDT" elapsedTime="198" timestamp="1780707669724" state="18" actionType="operation" actionName="CreateCables" subType="binding.ws" type="reference">
+        <entityName>Assets</entityName>
+        <compositeInstanceId>36670801</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="E313167207" parentInstanceId="116046891" externalComponent="OSB" date="2026-06-05 19:01:09.724 MDT" timestamp="1780707669724" >
+    </entry>
+    <entry instanceId="116047348" date="2026-06-05 19:02:21.321 MDT" lastUpdatedDate="2026-06-05 19:02:21.334 MDT" elapsedTime="13" timestamp="1780707741321" state="18" actionType="operation" actionName="uploadCables" subType="binding.ws" type="service">
+        <entityName>AssetsCallback</entityName>
+        <compositeInstanceId>36671244</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116047349" parentInstanceId="116047348" date="2026-06-05 19:02:21.322 MDT" lastUpdatedDate="2026-06-05 19:02:21.324 MDT" elapsedTime="2" timestamp="1780707741322" state="18" actionType="operation" actionName="uploadCables" subType="mediator" type="component">
+        <entityName>AssetsCallbackMediator</entityName>
+        <compositeInstanceId>36671244</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="L116047355" parentInstanceId="116045788" date="2026-06-05 19:02:22.513 MDT" lastUpdatedDate="2026-06-05 19:02:22.515 MDT" elapsedTime="2" timestamp="1780707742513" state="18" actionType="operation" actionName="unlockComposite" subType="binding.local" type="reference">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36670798</compositeInstanceId>
+        <compositeName>Assets</compositeName>
+        <compositeDN>Ivara/Assets!2.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>    <entry instanceId="116047355" parentInstanceId="L116047355" date="2026-06-05 19:02:22.513 MDT" lastUpdatedDate="2026-06-05 19:02:22.515 MDT" elapsedTime="2" timestamp="1780707742513" state="18" actionType="operation" actionName="unlockComposite" subType="binding.local" type="service">
+        <entityName>InstanceManager</entityName>
+        <compositeInstanceId>36671247</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116047357" parentInstanceId="116047356" date="2026-06-05 19:02:22.514 MDT" lastUpdatedDate="2026-06-05 19:02:22.515 MDT" elapsedTime="1" timestamp="1780707742514" state="18" actionType="operation" actionName="unlockComposite" subType="spring" type="component">
+        <entityName>InstanceManagerSpring</entityName>
+        <compositeInstanceId>36671247</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+    <entry instanceId="116047356" parentInstanceId="116047355" date="2026-06-05 19:02:22.514 MDT" lastUpdatedDate="2026-06-05 19:02:22.515 MDT" elapsedTime="1" timestamp="1780707742514" state="18" actionType="operation" actionName="unlockComposite" subType="mediator" type="component">
+        <entityName>InstanceManagerMediator</entityName>
+        <compositeInstanceId>36671247</compositeInstanceId>
+        <compositeName>InstanceManager</compositeName>
+        <compositeDN>Ivara/InstanceManager!1.0</compositeDN>
+        <applicationName>Ivara</applicationName>
+        <status>COMPLETED,CLEAR</status>
+    </entry>
+</audit_trail>
