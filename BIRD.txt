@@ -1,0 +1,3 @@
+please take a look at the asset composite and let me know if there are rules/filters in place when it process as Aerial Wire asset. 
+BIRD is seeing a lot of that asset type in GIS that are no in Ivara so I thought there might be some conditions in place to prevent them from being loaded to Ivara.
+Let me know what you find.
